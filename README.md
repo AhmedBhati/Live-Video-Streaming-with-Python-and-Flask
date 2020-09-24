@@ -1,5 +1,5 @@
 # Live-Video-Streaming-with-Python-and-Flask
-In this project Live Video Streaming is Done with Python Using Flask and Gunicorn as a production WSGI server with gevent for asynchronous calls. It streams the video and also saves the stream All thanks to the the article written by Miguel Grinberg.
+In this project Live Video Streaming is Done with Python Using Flask and Gunicorn as a production WSGI server with gevent for asynchronous calls. It streams the video and also saves the stream. All thanks to the the article written by Miguel Grinberg.
 
 Following depencencies should be installed before running the code:
 ```python
