@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Video Streaming Demonstration</title>
+  </head>
+  <body>
+    <img src="{{ url_for('video_feed') }}">
+<form name="passdata" action="." method="post">
+<br>
+<br>
+<legend>
+<p><b><i>Options</b></i></p>
+<input type="radio" name="psw1" value='0' id="savestream" required></input>
+<label for="savestream"><i>Missed the Live Stream, See the Saved Stream.</i></label><br>
+<input type="radio" name="psw1" value='2' id="sstream" required></input>
+<label for="sstream"><i>Want to See The Live Stream</i></label><br>
+<input type=radio name="psw1" value='1' id="closestream" required></input>
+<label for="closestream"><i>Close Stream</i></label><br> 
+<button type="Submit">Submit</button>
+</form>
+</html>
+
