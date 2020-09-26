@@ -1,5 +1,4 @@
 from flask import Flask, render_template, Response,request
-from camera import Camera
 import cv2 as cv
 from time import sleep
 cap = cv.VideoCapture(0)
